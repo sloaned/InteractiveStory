@@ -7,7 +7,8 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".ui.MainActivity"
-    tools:showIn="@layout/activity_main">
+    tools:showIn="@layout/activity_main"
+    android:background="@android:color/white">
 
     <ImageView
         android:layout_width="match_parent"
@@ -25,7 +26,9 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:text="Start Your Adventure"
-        android:id="@+id/startButton"/>
+        android:id="@+id/startButton"
+        android:background="@android:color/white"
+        android:textColor="#FF3A8AEC"/>
 
     <EditText
         android:layout_width="match_parent"
